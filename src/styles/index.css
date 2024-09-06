@@ -1,0 +1,151 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.form-general label, .form-experience label, .form-education label {
+  display: flex;
+  text-decoration: underline;
+  margin: 25px;
+}
+
+.form-group input, .form-general input, .form-experience input, .form-education input {
+  display: flex;
+  margin: 25px;
+}
+input[type=date] {
+  width: 200px;
+}
+textarea {
+  display: flex;
+  margin: 25px;
+  width: 182px;
+}
+.form-group textarea {
+  display: flex;
+}
+input:focus {
+  color: #257797;
+  border-color: #257797;
+  outline: #257797;
+}
+#general {
+  text-align: start;
+}
+input {
+  margin: 25px;
+  border-radius: 25px;
+  border: 2px solid #257797;
+  padding: 9px; 
+  width: 200px;
+  height: 15px;   
+}
+summary {
+  display: inline-flex;
+  margin: 25px;
+  box-shadow: 2px 2px 2px 1px #257797;
+  width: 350px;
+  font-weight: 800;
+}
+
+
+summary::after {
+  content: '';
+  width: 12px;
+  padding: 6px;
+  height: 10px;
+  background: url('../public/arrow_downward_45dp_5F6368_FILL0_wght400_GRAD0_opsz48.svg');
+  background-size:cover;
+  margin-left: 0.75em;
+  transition: 0.2s;
+}
+
+details[open] > summary::after {
+  transform: rotate(180deg);
+}
+.material-symbols-outlined {
+  margin-left: 15px;
+}
+
+li {
+  list-style-type: none;
+}  
+button[type=submit] {
+  display: inline-block;
+  padding: 12px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #646cff;
+  border: none;
+  border-radius: 15px;
+  margin-left: 15px;
+  box-shadow: 0 9px #999;
+}
+button[type=submit]:active {
+  background-color: #646cff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+button[type=submit]:hover {
+  background-color: #424bf8;
+}
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.45s;
+  border-radius: 12px;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

@@ -1,0 +1,26 @@
+
+.container {
+  background-color: #0e374e;
+  text-align: end;
+  color: rgba(255, 255, 255, 0.788);
+  justify-content: flex-end;
+  flex-direction: row;
+  max-width: 650px;
+  margin-left: auto;
+  
+}
+.span1 {
+  background-color: #0e374e;
+  display: inline-flex;
+  padding: 15px 15px;
+  font-weight: bold;
+  align-items: flex-end;
+  align-self: flex-end;
+  
+}
+.span1>.material-symbols-outlined {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
