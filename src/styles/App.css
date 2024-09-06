@@ -1,5 +1,12 @@
 
-
+.wrapper {
+  max-height: 500px;
+  max-width: 850px;
+  right: 250px;
+  top: 134px;
+  margin-right: auto;
+  position: absolute;
+}
 
 .container {
   display: flex;
@@ -8,7 +15,6 @@
   color: rgba(255, 255, 255, 0.788);
   justify-content: space-evenly;
   flex-direction: row;
-  max-width: 850px;
   margin-left: auto;
   
 }
