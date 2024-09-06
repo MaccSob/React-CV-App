@@ -15,6 +15,7 @@ function Home() {
         <General setInputVal={setInputVal} setInputVal2={setInputVal2} setInputVal3={setInputVal3} />
         <Education setInputVal4={setInputVal4} setInputVal5={setInputVal5}/>
         <Experience></Experience>
+        <div className="wrapper">
       <div className="container">
       <span className="span1" ><span className="material-symbols-outlined">
 person</span>{nameVal}</span>
@@ -22,9 +23,11 @@ person</span>{nameVal}</span>
 call</span>{phoneVal}</span>
           <span className="span1"> <span className="material-symbols-outlined">
 mail
-</span>{mailVal}</span>
-</div>         
-          
+</span>{mailVal}</span>   
+</div>  
+<p>{schoolVal}</p>    
+</div> 
+
 
     
 
