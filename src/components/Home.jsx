@@ -2,7 +2,6 @@ import { useState } from "react";
 import General from "./General";
 import Education from "./Education";
 import Experience from "./Experience";
-import Skills from "./Skills";
 import '../styles/App.css'
 function Home() {
     const [nameVal, setInputVal] = useState('');
@@ -16,7 +15,6 @@ function Home() {
         <General setInputVal={setInputVal} setInputVal2={setInputVal2} setInputVal3={setInputVal3} />
         <Education setInputVal4={setInputVal4} setInputVal5={setInputVal5}/>
         <Experience></Experience>
-        <Skills></Skills>
         <div className="wrapper">
       <div className="container">
       <span className="span1" ><span className="material-symbols-outlined">
@@ -26,7 +24,6 @@ call</span>{phoneVal}</span>
           <span className="span1"> <span className="material-symbols-outlined">
 mail
 </span>{mailVal}</span>   
-<h4>{schoolVal}</h4>
 
 </div> 
 </div>     
