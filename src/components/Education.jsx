@@ -15,13 +15,18 @@ function Education(props) {
       <div className="form-education">
           <label htmlFor="study">Study:</label>
           <Input
-          placeholder="Enter Study Name:" setInputVal={props.setInputVal5} />
+          placeholder="Enter Degree/Field Of Study :" setInputVal={props.setInputVal5} />
       </div>
       <div className="form-education">
-          <label htmlFor="studydate">Study Date:</label>
+          <label htmlFor="studydate">Start Date:</label>
+          <input name="studydate" id="studydate" type="date"/>
+      </div>
+      <div className="form-education">
+          <label htmlFor="studydate">End Date:</label>
           <input name="studydate" id="studydate" type="date"/>
       </div>
     </form>
+    <button>Add</button>
         </details>
         
     </>

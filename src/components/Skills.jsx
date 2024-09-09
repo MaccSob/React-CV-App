@@ -27,6 +27,7 @@ function Skills() {
     setInput('');
     ref.current.focus();
   }
+  //When the button is pressed add input
   function handleKeyDown(event) {
     if (event.key === 'Enter') {
        // call action

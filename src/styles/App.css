@@ -9,17 +9,13 @@
 }
 
 .container {
-  display: flex;
-  background-color: #0e374e;
-  text-align: end;
-  color: rgba(255, 255, 255, 0.788);
-  justify-content: space-evenly;
-  flex-direction: row;
-  margin-left: auto;
+  border: 1px solid black;
+  height: 500px;
   
 }
 .span1 {
   background-color: #0e374e;
+  color: rgba(255, 255, 255, 0.788);
   display: inline-flex;
   padding: 15px 15px;
   font-weight: bold;
