@@ -24,6 +24,8 @@ call</span>{phoneVal}</span>
           <span className="span1"> <span className="material-symbols-outlined">
 mail
 </span>{mailVal}</span>   
+<h4>Education:</h4>
+<p>{schoolVal} {studyVal}</p>
 
 </div> 
 </div>     
