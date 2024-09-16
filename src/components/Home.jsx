@@ -9,11 +9,12 @@ function Home() {
      const [mailVal, setInputVal3] = useState('');
      const [schoolVal, setInputVal4] = useState('');
      const [studyVal, setInputVal5] = useState('');
+     const [studyDate, setDateVal] = useState('');
      
     return (
     <>
         <General setInputVal={setInputVal} setInputVal2={setInputVal2} setInputVal3={setInputVal3} />
-        <Education setInputVal4={setInputVal4} setInputVal5={setInputVal5}/>
+        <Education setInputVal4={setInputVal4} setInputVal5={setInputVal5} setDateVal={setDateVal}/>
         <Experience></Experience>
         <div className="wrapper">
       <div className="container">
@@ -25,7 +26,7 @@ call</span>{phoneVal}</span>
 mail
 </span>{mailVal}</span>   
 <h4>Education:</h4>
-<p>{schoolVal} {studyVal}</p>
+<p>{schoolVal} {studyVal} {studyDate}</p>
 
 </div> 
 </div>     
