@@ -1,6 +1,5 @@
 
 import Input from "./GetInputs"
-import Dates from "./getDates"
 
 function Education(props) {
       return (
@@ -20,8 +19,7 @@ function Education(props) {
       </div>
       <div className="form-education">
           <label htmlFor="studydate">Start Date:</label>
-          <Dates
-          placeholder="Enter Degree/Field Of Study :" setInputVal={props.setDateVal} />
+          <input name="studydate" id="studydate" type="date"/>
       </div>
       <div className="form-education">
           <label htmlFor="studydate">End Date:</label>

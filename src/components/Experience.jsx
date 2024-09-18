@@ -10,11 +10,13 @@ work
       <form id="experience">
       <div className="form-experience">
           <label htmlFor="company">Company name:</label>
-          <input name="company" id="company" type="text" />
+          <Input
+          placeholder="Enter Company's name" setInputVal={props.setInputVal6} />
       </div>
       <div className="form-experience">
           <label htmlFor="position">Position Title:</label>
-          <input name="position" id="position" type="text" />
+          <Input
+          placeholder="Enter Position's title" setInputVal={props.setInputVal7} />
       </div>
       <div className="form-general">
           <label htmlFor="startdate">Start Date:</label>
